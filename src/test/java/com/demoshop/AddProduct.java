@@ -14,7 +14,7 @@ public class AddProduct extends TestBase {
     }
 
     @Test
-    public void addProductTest() {
+    public void addProductPositiveTest() {
         WebElement secondProduct = driver.findElements(By.cssSelector(".product-item")).get(1);
         secondProduct.findElement(By.cssSelector("input.button-2.product-box-add-to-cart-button")).click();
 
