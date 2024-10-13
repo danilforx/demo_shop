@@ -12,8 +12,8 @@ public class CreateAccountTests extends TestBase{
 
     @Test
     public void createAccountPositiveTest2() {
-        register("forexsws02@gmail.com", "Password1$");
+        register("forexsws11@gmail.com", "Password1$");
         logout();
-        login("forexsws02@gmail.com", "Password1$");
+        login("forexsws11@gmail.com", "Password1$");
     }
 }
